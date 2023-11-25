@@ -1,4 +1,4 @@
-package com.aida.Springboot.tutorial.entity;
+package com.ouma.Springboot.tutorial.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

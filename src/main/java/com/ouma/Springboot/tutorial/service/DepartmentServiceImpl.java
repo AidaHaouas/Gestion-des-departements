@@ -1,11 +1,11 @@
-package com.aida.Springboot.tutorial.service;
-
-import com.aida.Springboot.tutorial.entity.Department;
-import com.aida.Springboot.tutorial.error.DepartmentNotFoundException;
-import com.aida.Springboot.tutorial.repository.DepartmentRepository;
+package com.ouma.Springboot.tutorial.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.ouma.Springboot.tutorial.entity.Department;
+import com.ouma.Springboot.tutorial.error.DepartmentNotFoundException;
+import com.ouma.Springboot.tutorial.repository.DepartmentRepository;
 
 import java.util.List;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package com.aida.Springboot.tutorial;
+package com.ouma.Springboot.tutorial;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

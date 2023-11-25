@@ -1,13 +1,13 @@
-package com.aida.Springboot.tutorial.controller;
-
-import com.aida.Springboot.tutorial.entity.Department;
-import com.aida.Springboot.tutorial.error.DepartmentNotFoundException;
-import com.aida.Springboot.tutorial.service.DepartmentService;
+package com.ouma.Springboot.tutorial.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import com.ouma.Springboot.tutorial.entity.Department;
+import com.ouma.Springboot.tutorial.error.DepartmentNotFoundException;
+import com.ouma.Springboot.tutorial.service.DepartmentService;
 
 import javax.validation.Valid;
 import java.util.List;

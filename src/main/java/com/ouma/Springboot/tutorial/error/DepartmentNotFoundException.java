@@ -1,4 +1,4 @@
-package com.aida.Springboot.tutorial.error;
+package com.ouma.Springboot.tutorial.error;
 
 public class DepartmentNotFoundException extends Exception{
     public DepartmentNotFoundException() {

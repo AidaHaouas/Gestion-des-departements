@@ -1,8 +1,4 @@
-package com.aida.Springboot.tutorial.controller;
-
-import com.aida.Springboot.tutorial.controller.DepartmentController;
-import com.aida.Springboot.tutorial.entity.Department;
-import com.aida.Springboot.tutorial.service.DepartmentService;
+package com.ouma.Springboot.tutorial.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,6 +10,10 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
+
+import com.ouma.Springboot.tutorial.controller.DepartmentController;
+import com.ouma.Springboot.tutorial.entity.Department;
+import com.ouma.Springboot.tutorial.service.DepartmentService;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;

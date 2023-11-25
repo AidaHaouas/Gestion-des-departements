@@ -1,8 +1,8 @@
-package com.ouma.Springboot.tutorial.service;
+package com.aida.Springboot.tutorial.service;
 import java.util.List;
 
-import com.ouma.Springboot.tutorial.entity.Department;
-import com.ouma.Springboot.tutorial.error.DepartmentNotFoundException;
+import com.aida.Springboot.tutorial.entity.Department;
+import com.aida.Springboot.tutorial.error.DepartmentNotFoundException;
 
 public interface DepartmentService {
     public Department saveDepartment(Department department);

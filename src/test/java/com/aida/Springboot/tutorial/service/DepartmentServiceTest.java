@@ -1,4 +1,4 @@
-package com.ouma.Springboot.tutorial.service;
+package com.aida.Springboot.tutorial.service;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import com.ouma.Springboot.tutorial.entity.Department;
-import com.ouma.Springboot.tutorial.repository.DepartmentRepository;
-import com.ouma.Springboot.tutorial.service.DepartmentService;
+import com.aida.Springboot.tutorial.entity.Department;
+import com.aida.Springboot.tutorial.repository.DepartmentRepository;
+import com.aida.Springboot.tutorial.service.DepartmentService;
 
 import static org.junit.jupiter.api.Assertions.*;
 

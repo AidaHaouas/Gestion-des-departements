@@ -1,9 +1,9 @@
-package com.ouma.Springboot.tutorial.repository;
+package com.aida.Springboot.tutorial.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.ouma.Springboot.tutorial.entity.Department;
+import com.aida.Springboot.tutorial.entity.Department;
 
 @Repository
 public interface DepartmentRepository extends JpaRepository<Department, Long> {
